@@ -11,8 +11,8 @@ function MovingStars() {
   useFrame(({ clock }) => {
     const elapsedTime = clock.getElapsedTime();
     if (starsRef.current) {
-      starsRef.current.rotation.x = elapsedTime * 0.01;
-      starsRef.current.rotation.y = elapsedTime * 0.01;
+      starsRef.current.rotation.x = elapsedTime * 0.05;
+      starsRef.current.rotation.y = elapsedTime * 0.05;
     }
   });
 
