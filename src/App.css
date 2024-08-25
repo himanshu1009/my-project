@@ -20,9 +20,7 @@
 .changebg {/* Safari 6.0 - 9.0 */
     filter: invert(10);
   }
-  .desbgc{
-    background-image: url("nitc white.png");
-  }
+  
   @supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
     .desbg {
       -webkit-backdrop-filter: blur(150px);
