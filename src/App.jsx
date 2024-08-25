@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import Navbar from "./Components/Navbar";
 import Logo from "./Components/logo";
 import Descrip from "./Components/discription";
+import Hero from "./Components/Hero";
 
 function MovingStars() {
   const starsRef = useRef(null);
@@ -30,6 +31,7 @@ function App() {
       >
         <Navbar />
         <Logo/>
+        <Hero/>
         <Descrip/>
         <div className="absolute inset-0 z-0 ">
           <Canvas>
