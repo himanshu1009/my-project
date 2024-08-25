@@ -4,6 +4,8 @@ import { Canvas, useFrame } from "@react-three/fiber";
 import { Stars } from "@react-three/drei";
 import { motion } from "framer-motion";
 import Navbar from "./Components/Navbar";
+import Logo from "./Components/logo";
+import Descrip from "./Components/discription";
 
 function MovingStars() {
   const starsRef = useRef(null);
@@ -27,6 +29,8 @@ function App() {
         text-gray-200 min-h-screen bg-black "
       >
         <Navbar />
+        <Logo/>
+        <Descrip/>
         <div className="absolute inset-0 z-0 ">
           <Canvas>
             <MovingStars />
